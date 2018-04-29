@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2018 | hshe</title>
+  <title>hexo使用 | hshe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="hshe">
-<meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
+  <meta name="description" content="hexo 个人博客使用。win10系统 。 step1.安装note.js step2.安装git step3.创建github仓库。hshe.github.io(特殊的命名。)。 step4.ssh免密码生成。并把密钥贴到step3的仓库的deploykey下。 step5.   hexo init Hexo cd Hexo/ 测试： ssh -T git@github.com 这一步要有，不然">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo使用">
+<meta property="og:url" content="http://yoursite.com/2018/04/29/hexo使用-1/index.html">
 <meta property="og:site_name" content="hshe">
+<meta property="og:description" content="hexo 个人博客使用。win10系统 。 step1.安装note.js step2.安装git step3.创建github仓库。hshe.github.io(特殊的命名。)。 step4.ssh免密码生成。并把密钥贴到step3的仓库的deploykey下。 step5.   hexo init Hexo cd Hexo/ 测试： ssh -T git@github.com 这一步要有，不然">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-04-29T04:18:53.886Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hshe">
+<meta name="twitter:title" content="hexo使用">
+<meta name="twitter:description" content="hexo 个人博客使用。win10系统 。 step1.安装note.js step2.安装git step3.创建github仓库。hshe.github.io(特殊的命名。)。 step4.ssh免密码生成。并把密钥贴到step3的仓库的deploykey下。 step5.   hexo init Hexo cd Hexo/ 测试： ssh -T git@github.com 这一步要有，不然">
   
     <link rel="alternative" href="/atom.xml" title="hshe" type="application/atom+xml">
   
@@ -150,76 +154,186 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-hexo使用-1" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      hexo使用
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/29/hexo使用-1/" class="archive-article-date">
+
+        
+        <a href="/2018/04/29/hexo使用-1/" class="archive-article-date">
   	<time datetime="2018-04-29T04:17:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-29</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/29/hexo使用-1/">hexo使用</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="hexo-个人博客使用。"><a href="#hexo-个人博客使用。" class="headerlink" title="hexo 个人博客使用。"></a>hexo 个人博客使用。</h3><h6 id="win10系统-。"><a href="#win10系统-。" class="headerlink" title="win10系统 。"></a>win10系统 。</h6><ul>
+<li>step1.安装note.js</li>
+<li>step2.安装git</li>
+<li>step3.创建github仓库。hshe.github.io(特殊的命名。)。</li>
+<li>step4.ssh免密码生成。并把密钥贴到step3的仓库的deploykey下。</li>
+<li>step5.</li>
+</ul>
+<ul>
+<li>hexo init Hexo</li>
+<li>cd Hexo/</li>
+<li>测试：</li>
+<li>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></li>
+<li>这一步要有，不然hexo d不起作用。</li>
+<li>npm install hexo-deployer-git –save</li>
+</ul>
+<p>注意:中间有一个空格。</p>
+<ul>
+<li>deploy:</li>
+<li>type: git</li>
+<li>repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:hshe/hshe.github.io.git</li>
+<li>branch: master</li>
+</ul>
+<ul>
+<li>安装admin</li>
+</ul>
+<ul>
+<li>npm install –save hexo-admin</li>
+<li>hexo s<br><a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></li>
+<li>管理页面。<br><a href="http://localhost:4000/blob/admin" target="_blank" rel="noopener">http://localhost:4000/blob/admin</a></li>
+</ul>
+<p>最后，使用的主题。</p>
+<h5 id="https-github-com-litten-hexo-theme-yilia"><a href="#https-github-com-litten-hexo-theme-yilia" class="headerlink" title="https://github.com/litten/hexo-theme-yilia"></a><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a></h5>
+      
 
-        <div class="article-info info-on-right">
-          
-          
-
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/04/29/hexo使用-1/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/29/hello-world/" class="archive-article-date">
-  	<time datetime="2018-04-29T03:19:29.676Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-29</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2018/04/29/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/29/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -242,8 +356,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
